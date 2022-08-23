@@ -1,35 +1,64 @@
+/* Navbar */
+
 #navmenu {
     text-align: center;
 }
 
 
+/* Showcase */
+
+
+/* Sign up form*/
+
+
+/* Music Section */
+#music {
+  padding: 5% 10%;
+}
+
+.listen {
+  text-align: center;
+  color: aliceblue;
+}
 /* Videos Section */
 
 #videos {
-    padding: 5% 10%;
+  padding: 7% 12%;
 }
 
 .iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-  }
-  .iframe-container iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
   /*About*/
 
-  #about {
-    color: white;
-    background-color: black;
-    width: 100%;
+#about {
+  width: 100%;
 
+}
+
+
+
+/* Breakpoint styles */
+
+@media(min-width: 768px) {
+  .news-input {
+    width: 50%;
   }
+  #newsletter{
+    height: fit-content;
+  }
+}
